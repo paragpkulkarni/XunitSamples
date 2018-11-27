@@ -1,0 +1,15 @@
+﻿{
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"id": "test",
+	"title": "xUnit.net Runner Configuration",
+	"description": "Configuration file for unit test projects using xUnit.net",
+	"type": "object",
+	"properties": {	
+		"diagnosticMessages": {
+			"description": "Enables or disables diagnostic information during test discovery and execution.",
+			"default": false,
+			"type": "boolean"
+		}		
+	},
+	"additionalProperties": false
+}
